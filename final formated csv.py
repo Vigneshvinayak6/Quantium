@@ -18,8 +18,8 @@ output_df = df_pink[['Sales', 'date', 'region', 'product']].copy()
 output_df = output_df.rename(columns={'date': 'Date', 'region': 'Region'})
 
 # Save the formatted output file to output directory
-output_df.to_csv('soul_foods_pink_morsels.csv', index=False)
-print("Formatted output file 'soul_foods_pink_morsels.csv' created successfully!")
+output_df.to_csv('pink morsels.csv', index=False)
+print("Formatted output file 'pink morsels.csv' created successfully!")
 print(f"Shape: {output_df.shape}")
 print("\nFirst few rows:")
 print(output_df.head())
